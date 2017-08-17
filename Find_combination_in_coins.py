@@ -1,5 +1,5 @@
-amount=10
-coins=[1,2,5]
+amount=100
+coins=[1,2,4,8,16]
 number_of_coins=len(coins)
 dict={}
 arr=[[] for x in range(amount+1)]

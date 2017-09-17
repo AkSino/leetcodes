@@ -13,3 +13,6 @@ print("My height is %.1f ft" %float)  #Prints float upto predefined decimal poin
 print(round(1.33))
 
 print("%r" %character)
+
+
+print ("pandas: {}".format(1.4))

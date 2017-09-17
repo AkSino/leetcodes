@@ -1,4 +1,4 @@
-p=[10]
+p={}
 
-if p[0]:
-    print("VARDAN")
+if p=={}:
+    print("AVAVG")

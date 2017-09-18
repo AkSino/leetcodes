@@ -1,5 +1,6 @@
-import numpy as np
+vardan=set()
 
-arr=np.arange(2121)
-print(arr.itemsize)
-
+vardan.add("a")
+vardan.add("b")
+vardan.remove("a")
+print(vardan)

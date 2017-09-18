@@ -1,23 +1,35 @@
 
 distances = {
-    'B': {'A':12,'C':12},
-    'A': {'E':32,'F':232},
-    'D': {'B': 15},
-    'C': {'D': 15},
-    'E': {},
-    'F': {}
+    'A': {'B':12,'C':12},
+    'B': {'E':32,'D':232},
+    'C': {'F': 15,'G':32},
+    'D': {'H': 15,'I':32},
+    'E': {'J': 15,'K':32},
+    'F': {'L': 15,'M':32},
+    'G': {'N': 15,'O':32},
+    'H': {},
+    'I': {},
+    'J': {},
+    'K': {},
+    'L': {},
+    'M': {},
+    'N': {},
+    'O': {},
 }
 visited_nodes=set()
-starting_node='B'
+starting_node='A'
+temp_set=set()
 
 def find_connection(input_graph, starting_node):
     for current_node_in_loop in distances[starting_node]:
         if current_node_in_loop in visited_nodes:
             break
-        if current_node_in_loop not in visited_nodes:
-            visited_nodes.add(current_node_in_loop)
-            find_connection(input_graph, current_node_in_loop)
+        visited_nodes.add(current_node_in_loop)
+        temp_set.add(current_node_in_loop)
+    for item in temp_set:
+        find_connection(input_graph,item)
+    temp_set.clear()
     return visited_nodes
 
-print(find_connection(distances,'A'))
 
+print(find_connection(distances,starting_node))

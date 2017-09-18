@@ -1,6 +1,2 @@
-vardan=set()
-
-vardan.add("a")
-vardan.add("b")
-vardan.remove("a")
-print(vardan)
+p=3-2
+print (type(p))

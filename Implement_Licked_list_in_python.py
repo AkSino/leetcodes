@@ -12,8 +12,8 @@ class Node(object):
         self.data=d
 
 class LinkedList(object):
-    def __init__(self, head=None):
-        self.head = head
+    def __init__(self):
+        self.head = None
 
     def insert(self, data):
         new_node = Node(data)
@@ -59,4 +59,4 @@ class LinkedList(object):
 
 myList=LinkedList()
 myList.insert(56)
-print(myList.search(67))
+print(myList.search(56))

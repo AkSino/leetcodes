@@ -1,2 +1,2 @@
-p=3-2
-print (type(p))
+a=10/3
+print('%.1000000f' %a)

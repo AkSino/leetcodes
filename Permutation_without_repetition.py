@@ -19,7 +19,7 @@ def permutation(input_string,start,end):
 # And for all these three steps we have to firstly swap the number and then again come back to the original pattern so that we
 # can swap the other pair of number easily
 
-str="AAA"
+str="AB"
 lists=list(str)
 start=0
 end=len(lists)-1

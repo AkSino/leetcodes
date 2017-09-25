@@ -1,0 +1,13 @@
+if __name__ == "__main__":
+    print("two.py is being run directly")
+else:
+    print("two.py is being imported into another module")
+
+
+This basically means that if a python file is directly run then the __name__ will be set as __main__ otherwise if it is called
+throuh some other module then it will not be set equal to __main__.
+
+
+Also, if we import a module and in that module function is called, then it will also be called in the calling module. We dont want that.
+
+Thats y we will use __name__. This will not let the entire code execute on import but on calling it

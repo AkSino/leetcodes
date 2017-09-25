@@ -3,4 +3,5 @@ class Node(object):
         self.value=value
         self.next_node=None
         self.total_node=0
-    def insert_node(self,next_node):
+
+

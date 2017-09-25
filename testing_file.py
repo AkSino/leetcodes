@@ -1,2 +1,2 @@
-a=10/3
-print('%.1000000f' %a)
+for i in range(5,0,-1):
+    print(i)

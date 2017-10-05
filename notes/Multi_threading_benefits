@@ -1,0 +1,13 @@
+Suppose there are two functions a and b.
+
+We call function a but function a has to wait for some time due to some action requirement, for example user_input or there is a sleep
+in that function, so for that time out CPU is sitting idle and doing nothing.
+
+So in such a scenario multi-threading is useful.
+
+As soon as a process becomes idle, it executes other process and then again come over the paused process.
+
+To see it working, make two methods with a sleep in them and a print statement in both of them, and make them multi-threaded.
+What we will observe is that both the method will be executed consecutively repeatedly.
+
+This shows how multi threading saved time.

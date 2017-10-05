@@ -7,7 +7,7 @@ def BinarySearch(arr,key):
     if key<arr[mid]:
         return BinarySearch(arr[0:mid],key)
 
-print(BinarySearch([1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,23,34,45,56,67,78,89],2))
+print(BinarySearch([1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,23,34,45,56,67,78,89],345))
 
 
 #NOTE: We are using array slicing which works as follows:

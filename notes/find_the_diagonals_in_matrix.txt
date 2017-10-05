@@ -1,0 +1,16 @@
+If we want to know about the diagonal which is from top left to bottom right, just subtract row-column. Then all the cells with same
+row-column will be the diagonal of that cell.
+
+                                00                          or
+                                    11                              01
+                                        22                              12
+                                            33                              23
+                                                44                               34
+
+If we want to calculate diagonal from bottom left to top right to a particular cell, then sum the row and column of that cell, then
+all the cell with same sum of row and column will be a diagonal.
+
+                                                    13
+                                                 22
+                                              31
+                                           40

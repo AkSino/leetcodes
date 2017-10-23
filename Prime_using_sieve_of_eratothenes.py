@@ -13,7 +13,7 @@ def SieveOfEratosthenes(n):
             for i in range(p * 2, n + 1, p):
                 prime[i] = False
         p += 1
-    lis = []
+
 
     # Print all prime numbers
     for p in range(2, n):
@@ -22,7 +22,7 @@ def SieveOfEratosthenes(n):
 
 # driver program
 if __name__ == '__main__':
-    n = 100
+    n = 1000000
     print
     "Following are the prime numbers smaller",
     print

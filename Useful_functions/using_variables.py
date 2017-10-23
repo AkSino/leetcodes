@@ -5,7 +5,7 @@ character='v'
 string=13
 float=12.344
 
-print ("My age is %d" %integer)
+print ("My age is %d %d" %(integer,integer))
 print("First letter is %c" %character)
 print("My salary was %sk" %string)
 print("My height is %f ft" %float)  #prints default float

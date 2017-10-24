@@ -1,4 +1,4 @@
-help(print())
+print (1337%23)
 
-
-dir(print())
+var=[]
+var.set

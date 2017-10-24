@@ -1,0 +1,4 @@
+help(print())
+
+
+dir(print())

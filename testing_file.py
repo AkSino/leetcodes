@@ -1,4 +1,4 @@
-help(print())
+a=2.3
 
 
-dir(print())
+print(int(2.99))

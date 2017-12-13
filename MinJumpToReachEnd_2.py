@@ -17,6 +17,6 @@ def minJumps(arr, n):
                 return -1
             step = maxReach - i;
     return -1
-arr = [3, 3, 1, 1, 9, 2, 6, 7, 6, 8, 9]
+arr = [3, 4, 1, 1, 9, 2, 6, 7, 6, 8, 9]
 size = len(arr)
 print("Minimum number of jumps to reach end is %d " % minJumps(arr, size))

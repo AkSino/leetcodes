@@ -25,9 +25,4 @@ for layer in range(0,layer_numbers):
          matrix[top + i][right]=last_elem
 
 for layer in matrix:
-    print(layer)
-
-
-
-
-
+    print(layer

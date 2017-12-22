@@ -15,6 +15,6 @@ def FindPivot(input_array,low,high):
     if input_array[mid]>input_array[low]:
         FindPivot(input_array,mid+1,high)
     else:
-        FindPivot(input_array,low,mid-1)
+            FindPivot(input_array,a ja  ,mid-1)
 
 FindPivot(input_array,0,6)

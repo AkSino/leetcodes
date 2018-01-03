@@ -22,7 +22,7 @@ while unvisited:
         if visited[neinbours] is None:
             visited[neinbours]=curDis+distanceTo
             unvisited[neinbours]=visited[neinbours]
-        elif( visited[neinbours]>curDis+distanceTo ):
+        elif(visited[neinbours]>curDis+distanceTo ):
             visited[neinbours]=curDis+distanceTo
             unvisited[neinbours]=visited[neinbours]
     del unvisited[starting]

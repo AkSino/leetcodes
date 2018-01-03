@@ -16,19 +16,18 @@ class Solution:
             yy=len(matrix[0])
         else:
             yy =0
-        p=matrix
         count = 0
         for i in range(xx):
             for j in range(yy):
-                if ((p[i][j] == "1") and (self.visited[i][j] == False)):
+                if ((matrix[i][j] == "1") and (self.visited[i][j] == False)):
                     self.visited[i][j] = True
-                    self.dfs(i, j, p,xx,yy)
+                    self.dfs(i, j, matrix,xx,yy)
                     count += 1
         return count
 matrix=[["1","1","1","1","0"],
         ["1","1","0","1","0"],
         ["1","1","0","0","0"],
-        ["0","0","0","0","0"]]
+        ["0","0","0","0","1"]]
 vardan=Solution()
 print(vardan.numIslands(matrix))
 

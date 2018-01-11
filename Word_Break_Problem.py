@@ -1,15 +1,21 @@
 #http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
 
-dict=["he","ran"]
 
-def wordBreak(string):
-    if len(string)==0:
-        return True
-    for i in range(len(string)):
-        if string[0:i+1] in dict and wordBreak(string[i+1:len(string)]):
-            print(string[0:i+1])
+class Solution:
+    # @param s, a string
+    # @param dict, a set of string
+    # @return a boolean
+
+    def wordBreak(self, s, dict):
+        if s == '':
             return True
-    return False
-
-test_string=wordBreak("heran")
-print(test_string)
+        checklist = [False] * (len(s) + 1)
+        checklist[len(s)] = True
+        for i in range(len(s) - 1, -1, -1):
+            for j in range(i, len(s)):
+                if s[i:j + 1] in dict and checklist[j + 1] == True:
+                    checklist[i] = True
+        return checklist[0]
+dict=["eecodee","eeleetee","eevee","nnu"]
+var=Solution()
+print(var.wordBreak("eecodeeeeveeeeleetee",dict))

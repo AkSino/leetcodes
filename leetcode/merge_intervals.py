@@ -1,6 +1,6 @@
 class Solution:
     def merge(self, intervals):
-        i=1
+        m=1
         result=[]
         last=0
         for i in intervals:

@@ -3,7 +3,7 @@
 
 #But There is not such an exact concept of private or protected variable in python, its just that we use it so that
 #  whenever some other developer is using that variable
-# we can pinpoint in by seeing the underscores (_ for protected and __ for private).
+# we can pinpoint in by seeing the underscores (_ for protected and __ for private) and the other developer makes sure to not to use those variable.
 
 #We can still access the private and protected variables although the good practice is using the getters and setters.
 

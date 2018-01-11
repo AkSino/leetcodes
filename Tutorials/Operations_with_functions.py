@@ -16,3 +16,6 @@ vardan()
 #Here also we dont have to use the brackets
 def function2():
     return outer_function
+
+
+#We can also define global variable from inside a function.

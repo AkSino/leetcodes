@@ -19,3 +19,5 @@ class Solution:
 dict=["eecodee","eeleetee","eevee","nnu"]
 var=Solution()
 print(var.wordBreak("eecodeeeeveeeeleetee",dict))
+
+a=[1]

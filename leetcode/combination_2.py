@@ -12,8 +12,8 @@ def dfs( candidates, start, res, ans, target):
         res.append(ans)
         return
     for i in range(start, len(candidates)):
-        # if i != start and candidates[i] == candidates[i - 1]:
-        #     continue
+        if i != start and candidates[i] == candidates[i - 1]:
+            continue
         dfs(candidates, i+1, res, ans + [candidates[i]], target - candidates[i])
     return res
 

@@ -1,8 +1,11 @@
-def func1(var,num):
-    if num==0:
-        return
-    var.append(1)
-    func1(var,num-1)
-    return var
+a=[[2,1],[1,9],[2,4],[2,6]]
+c=[]
+b=[]
+for val,each in enumerate(a):
+    b.append([each[1],val])
+b=sorted(b)
 
-print(func1([],5))
+for each in b:
+    c.append(a[each[1]])
+
+print(c)

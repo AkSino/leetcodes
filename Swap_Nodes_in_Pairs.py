@@ -17,15 +17,6 @@ class Solution():
 
 
 
-
-
-
-
-
-
-
-
-
 a=Node(1)
 a.next=Node(2)
 a.next.next=Node(3)
@@ -34,3 +25,5 @@ a.next.next.next.next=Node(5)
 var=Solution()
 m=var.swapPairs(a)
 print(m.data,m.next.data,m.next.next.data)
+
+import nltk

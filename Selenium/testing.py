@@ -18,7 +18,7 @@ elem.send_keys(uname)
 elem_pass.send_keys(password)
 elem_submit.click()
 #provide any of the link of employee of linkedIn.
-driver.get("https://www.linkedin.com/search/results/people/?keywords=Walmart&origin=SUGGESTION&page=3")
+driver.get("https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221482%22%2C%222260136%22%2C%2213308%22%2C%221196511%22%2C%221310825%22%2C%22552278%22%5D")
 while True:
     time.sleep(3)
     #Loads all the connect button into an array

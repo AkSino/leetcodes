@@ -2090,3 +2090,297 @@ Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrp
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1516140567300	geckodriver	INFO	geckodriver 0.19.1
+1516140567308	geckodriver	INFO	Listening on 127.0.0.1:60588
+1516140570480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.ewyEAwi7jSul"
+1516140573599	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 21948, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516140575296	Marionette	INFO	Listening on port 60602
+1516140575829	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516140575892	Marionette	DEBUG	Register listener.js for window 4294967297
+1516140575918	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516140576224	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516140576224	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516140576495	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/"
+1516140576603	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/"
+1516140576819	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.linkedin.com/"
+1516140578643	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.linkedin.com/"
+1516140578645	Marionette	DEBUG	Received DOM event "unload" for "https://www.linkedin.com/"
+1516140579499	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1516140579959	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/feed/"
+1516140586074	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/feed/"
+1516140586137	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.linkedin.com/feed/"
+1516140586485	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.linkedin.com/feed/"
+1516140586524	Marionette	DEBUG	Received DOM event "unload" for "https://www.linkedin.com/feed/"
+1516140587377	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1516140587377	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1516140587383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%22400528%22%5D"
+1516140590962	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%22400528%22%5D"
+1516140594293	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140596587	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140600928	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140605517	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140607787	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140612444	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140620752	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140623028	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140627340	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140629593	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140633953	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140636235	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140640544	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140642809	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140647110	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140649407	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140653695	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140655955	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140660245	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140662548	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140666863	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140669133	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140673468	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140675739	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140680059	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140688358	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140690600	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140694899	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140697138	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140701436	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140703695	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140707971	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140710239	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140714537	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140716778	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140721049	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140723296	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140727559	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140729793	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140734071	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140736346	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140740658	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140748970	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140751243	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140755560	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140757845	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140762140	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140764434	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140768715	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140770990	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140775288	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140777568	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140781892	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140784138	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140788422	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140790666	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140794973	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140797241	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140801537	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140809849	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140812119	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140816439	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140818684	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140822973	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140825246	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140829507	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140831830	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140836095	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140838423	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140842750	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140845009	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140849293	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140851593	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140855903	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140860372	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140862620	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140866912	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140869182	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140873513	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140881815	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140884066	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140888345	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140890600	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140894891	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140897153	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140901457	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140903724	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140908027	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140910284	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140914586	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140916839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140921126	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140923378	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140927670	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140929938	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140934253	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140942544	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140944838	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140949143	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140951383	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140955701	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140957958	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140962244	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140964534	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140968834	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140971097	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140975410	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140977646	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140981937	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140984193	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140988487	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140990763	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140995053	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516140997322	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141001612	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141003878	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141008257	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141016577	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141018826	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141023124	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141025390	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141029703	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141031959	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141036306	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141038553	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141042849	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141045113	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141049391	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141051646	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 21764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1516141110519	geckodriver	INFO	geckodriver 0.19.1
+1516141110525	geckodriver	INFO	Listening on 127.0.0.1:61322
+1516141113631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.1mxP4lLvCWuQ"
+1516141114401	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 12516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516141115808	Marionette	INFO	Listening on port 61332
+1516141116819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516141116920	Marionette	DEBUG	Register listener.js for window 4294967297
+1516141116941	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516141117216	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516141117217	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516141117605	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/"
+1516141117958	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/"
+1516141118179	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.linkedin.com/"
+1516141119951	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.linkedin.com/"
+1516141119953	Marionette	DEBUG	Received DOM event "unload" for "https://www.linkedin.com/"
+1516141121161	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1516141121603	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/feed/"
+1516141127905	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/feed/"
+1516141127932	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.linkedin.com/feed/"
+1516141128236	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.linkedin.com/feed/"
+1516141128288	Marionette	DEBUG	Received DOM event "unload" for "https://www.linkedin.com/feed/"
+1516141129156	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1516141129157	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1516141129164	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221482%22%2C%222260136%22%2C%2213308%22%2C%221196511%22%2C%221310825%22%2C%22552278%22%5D"
+1516141132900	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221482%22%2C%222260136%22%2C%2213308%22%2C%221196511%22%2C%221310825%22%2C%22552278%22%5D"
+1516141136261	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141138600	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141143284	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141151605	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141153882	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141158288	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141162650	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141164907	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141169160	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1516141171430	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9296, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 18420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 18420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 25608, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 18588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1516141442908	geckodriver	INFO	geckodriver 0.19.1
+1516141442914	geckodriver	INFO	Listening on 127.0.0.1:61640
+1516141445995	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.YkHa90vNXWPA"
+1516141446571	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11056, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516141447963	Marionette	INFO	Listening on port 61649
+1516141448051	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516141448113	Marionette	DEBUG	Register listener.js for window 4294967297
+1516141448145	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516141448517	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516141448518	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516141448905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/"
+1516141449033	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/"
+1516141449288	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.linkedin.com/"
+1516141450105	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.linkedin.com/"
+1516141450109	Marionette	DEBUG	Received DOM event "unload" for "https://www.linkedin.com/"
+1516141450662	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1516141451441	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/feed/"
+1516141457392	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/feed/"
+1516141457452	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.linkedin.com/feed/"
+1516141457742	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.linkedin.com/feed/"
+1516141457774	Marionette	DEBUG	Received DOM event "unload" for "https://www.linkedin.com/feed/"
+1516141458625	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1516141458626	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1516141459508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221482%22%2C%222260136%22%2C%2213308%22%2C%221196511%22%2C%221310825%22%2C%22552278%22%5D"
+1516141462562	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221482%22%2C%222260136%22%2C%2213308%22%2C%221196511%22%2C%221310825%22%2C%22552278%22%5D"
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7884, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 20504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 15728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1516141487018	geckodriver	INFO	geckodriver 0.19.1
+1516141487024	geckodriver	INFO	Listening on 127.0.0.1:61778
+1516141490112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.Y4ICu0PcYlTa"
+1516141490707	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17744, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1516141492196	Marionette	INFO	Listening on port 61787
+1516141493288	Marionette	WARN	TLS certificate errors will be ignored for this session
+1516141493377	Marionette	DEBUG	Register listener.js for window 4294967297
+1516141493400	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1516141493713	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1516141493715	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1516141494055	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/"
+1516141494179	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/"
+1516141494383	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.linkedin.com/"
+1516141495445	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.linkedin.com/"
+1516141495447	Marionette	DEBUG	Received DOM event "unload" for "https://www.linkedin.com/"
+1516141496739	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1516141496748	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/feed/"
+1516141503542	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/feed/"
+1516141503601	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.linkedin.com/feed/"
+1516141503975	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.linkedin.com/feed/"
+1516141504032	Marionette	DEBUG	Received DOM event "unload" for "https://www.linkedin.com/feed/"
+1516141504893	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1516141504894	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1516141504901	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221482%22%2C%222260136%22%2C%2213308%22%2C%221196511%22%2C%221310825%22%2C%22552278%22%5D"
+1516141508744	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221482%22%2C%222260136%22%2C%2213308%22%2C%221196511%22%2C%221310825%22%2C%22552278%22%5D"
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 25264, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16704, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

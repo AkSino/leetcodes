@@ -1,11 +1,4 @@
-a=[[2,1],[1,9],[2,4],[2,6]]
-c=[]
-b=[]
-for val,each in enumerate(a):
-    b.append([each[1],val])
-b=sorted(b)
+a="djn.denkn."
 
-for each in b:
-    c.append(a[each[1]])
-
-print(c)
+if a[-1]==".":
+    print(a[0:-1])

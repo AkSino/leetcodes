@@ -11,4 +11,4 @@ def isValid(s):
             return False
     return stack == []
 
-print(isValid("()(())()()()"))
+print(isValid("()(())(){)"))

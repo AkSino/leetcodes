@@ -1,4 +1,3 @@
-a="djn.denkn."
+a=[0,-1]
 
-if a[-1]==".":
-    print(a[0:-1])
+print(sorted(a))

@@ -1,6 +1,6 @@
 #https://leetcode.com/problems/longest-valid-parentheses/discuss/
 
-input_string="))(())()())((()()()"
+input_string="))((()))()())((()()()"
 stack=[]
 left=-1
 maxim=0

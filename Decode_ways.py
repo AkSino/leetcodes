@@ -13,4 +13,4 @@ def numDecodings(s):
     return dp[-1]
 
 
-print(numDecodings("1220"))
+print(numDecodings("122"))

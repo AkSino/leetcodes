@@ -17,13 +17,19 @@ with open("C:\\Users\\varda\\OneDrive\\Desktop\\selenium.txt",'r') as f:
 elem.send_keys(uname)
 elem_pass.send_keys(password)
 elem_submit.click()
+count=0
 #provide any of the link of employee of linkedIn.
-driver.get("https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221482%22%2C%222260136%22%2C%2213308%22%2C%221196511%22%2C%221310825%22%2C%22552278%22%5D")
+driver.get("https://www.linkedin.com/search/results/people/?keywords=Visa&origin=SUGGESTION&page=3")
 while True:
+    count=0
     time.sleep(3)
     #Loads all the connect button into an array
     connect=driver.find_elements_by_css_selector(".search-result__actions--primary.button-secondary-medium.m5")
     for each in connect:
+        count+=1
+        if count==4 or count==8:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
         if not each.is_enabled():
             continue
         each.click()

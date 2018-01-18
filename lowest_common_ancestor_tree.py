@@ -36,6 +36,7 @@ def findLCA(root, n1, n2):
         return root
 
         # Otherwise check if left subtree or right subtree is LCA
+
     return left_lca if left_lca is not None else right_lca
 
 
@@ -49,11 +50,7 @@ root.left.left = Node(4)
 root.left.right = Node(5)
 root.right.left = Node(6)
 root.right.right = Node(7)
-print
-"LCA(4,5) = ", findLCA(root, 4, 5).key
-print
-"LCA(4,6) = ", findLCA(root, 4, 6).key
-print
-"LCA(3,4) = ", findLCA(root, 3, 4).key
-print
-"LCA(2,4) = ", findLCA(root, 2, 4).key
+print("LCA(4,5) = ", findLCA(root, 4, 5).key)
+print("LCA(4,6) = ", findLCA(root, 4, 6).key)
+print("LCA(3,4) = ", findLCA(root, 3, 4).key)
+print("LCA(2,4) = ", findLCA(root, 2, 9).key)

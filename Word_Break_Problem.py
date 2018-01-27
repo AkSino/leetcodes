@@ -1,5 +1,5 @@
 #http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
-
+from nltk import EarleyChartParser
 
 class Solution:
     # @param s, a string

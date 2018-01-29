@@ -10,9 +10,9 @@ Aux : can | will ;
 Det : the | that ;
 Pronoun : he | she ;
 Proper-Noun : mary | john ;
-Nominal : Noun | Nominal Noun | Nominal PP
+Nominal : Noun | Nominal Noun | Nominal PP;
 Noun : book | flight ;
 Verb : do | work | book ;
-PP : Prep NP :
+PP : Prep NP ;
 Prep: in | on | at ;
 W = Book that flight.

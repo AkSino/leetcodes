@@ -57,9 +57,9 @@ def Earley_parser(words):
     for i in range(len(words) + 1):
         for row_elem in s[i]:
             RHS = extractAfterStarState(row_elem[0])
-            # if RHS==0 and RHS not in dict:
+            # if rightWord==0 and rightWord not in dict:
             #     continue
-            # if s[i].index(row_elem) == 0 and RHS == 0:
+            # if s[i].index(row_elem) == 0 and rightWord == 0:
             #     continue
             if RHS != 0 and RHS not in pos:
                 predictor(row_elem, i)

@@ -1,12 +1,21 @@
-import re
+class Solution:
+    # @param A : list of integers
+    # @return a list of integers
+    def plusOne(self, A):
+        val = 1;
+        for i in range(len(A),0,-1):
+            val = val + A[i-1]
+            borrow = int(val/10)
+            if borrow == 0:
+                A[i-1] = val
+                break;
+            else:
+                A[i-1] = val%10
+                val = borrow
+        A = [borrow] + A
+        while A[0]==0:
+            del A[0]
+        return A
 
-
-def find_LHS(string):
-    emails = re.findall(r'(?:^|(?:[->?!]\s))([a-zA-Z]+)', string[0])
-    if emails:
-        final = emails[0].strip()
-        return (final)
-    else:
-        return (string[0])
-
-print(find_LHS('Verb -> book * '))
+var=Solution()
+print(var.plusOne([9,9,9]))

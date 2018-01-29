@@ -99,11 +99,7 @@ def enqueue(state, chart_entry):
         s[state].append(chart_entry)
 
 
-stemmer_printer = []
-
-
 def main_method():
-    global stemmer_printer
     ps = PorterStemmer()
     inputPattern = ""
     array = []
@@ -111,7 +107,7 @@ def main_method():
     for inputSys in fileinput.input():
         for w in word_tokenize(inputSys):
             if count == 0:
-                stemmer_printer.append("".join(["\nStemmer: "]))
+                print("\nStemmer: ")
                 count += 1
             type_of_word = wordCat(w)
             if inputSys.find('=') == -1:
@@ -119,21 +115,19 @@ def main_method():
                     partsCode = split('\|', w)
                     for i in range(len(partsCode)):
                         if len(partsCode) > 1 and i == 1 and partsCode[i] is not '':
-                            stemmer_printer.append("".join(['|', ' ', 'OP', ' ', str(fileinput.lineno())]))
+                            print('|', ' ', 'OP', ' ', fileinput.lineno())
                         if partsCode[i] is '':
-                            stemmer_printer.append("".join(['|', ' ', 'OP', ' ', str(fileinput.lineno())]))
+                            print('|', ' ', 'OP', ' ', fileinput.lineno())
                         else:
                             type_of_word = wordCat(partsCode[i])
-                            stemmer_printer.append(
-                                "".join(partsCode[i], ' ', str(type_of_word), ' ', str(fileinput.lineno())))
+                            print(partsCode[i], ' ', type_of_word, ' ', fileinput.lineno())
                 else:
-                    stemmer_printer.append("".join([str(w), ' ', str(type_of_word), ' ', str(fileinput.lineno())]))
+                    print(w, ' ', type_of_word, ' ', fileinput.lineno())
             else:
                 if search('[A-Za-z]', w) and w != "W":
-                    stemmer_printer.append("".join(
-                        [str(w), ' ', str(type_of_word), ' ', str(fileinput.lineno()), ' ', ps.stem(w).lower(), ' ']))
+                    print(w, ' ', type_of_word, ' ', fileinput.lineno(), ' ', ps.stem(w).lower(), ' ')
                 else:
-                    stemmer_printer.append("".join([str(w), ' ', str(type_of_word), ' ', str(fileinput.lineno())]))
+                    print(w, ' ', type_of_word, ' ', fileinput.lineno())
         inputSys.strip()
         if "#" in inputSys:
             continue
@@ -207,7 +201,7 @@ def main_method():
     if First_char < second_char:
         print("Error in Input")
         sys.exit("Error in Input")
-    stemmer_printer.append("".join(["ENDFILE"]))
+    print("ENDFILE")
     if not inputGrammar or 'W' not in inputGrammar:
         print("Please Input Data")
         sys.exit("Please Input Data")
@@ -221,15 +215,8 @@ def createChart():
             if check_chart == elem[2]:
                 print("\nChart [", elem[2], "]")
                 check_chart += 1
-            print("{:<30s} {:>30s} {:>30s}".format("S" + str(chart_number) + " " + elem[0], str([elem[1], elem[2]]),
-                                                   elem[-1]))
+            print("{:<30s} {:>30s} {:>30s}".format("S" + str(chart_number) + " " + elem[0], str([elem[1], elem[2]]),elem[-1]))
             chart_number += 1
-
-
-def printStemmer():
-    global stemmer_printer
-    for each in stemmer_printer:
-        print(each)
 
 
 def BaseClass(words):
@@ -251,5 +238,4 @@ def BaseClass(words):
 
 main_method()
 BaseClass(inputGrammar["W"])
-printStemmer()
 createChart()

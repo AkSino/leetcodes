@@ -1,5 +1,4 @@
 #http://www.geeksforgeeks.org/dynamic-programming-set-32-word-break-problem/
-from nltk import EarleyChartParser
 
 class Solution:
     # @param s, a string
@@ -16,8 +15,6 @@ class Solution:
                 if s[i:j + 1] in dict and checklist[j + 1] == True:
                     checklist[i] = True
         return checklist[0]
-dict=["eecodee","eeleetee","eevee","nnu"]
+dict=["i","am","aam","njnj"]
 var=Solution()
-print(var.wordBreak("eecodeeeeveeeeleetee",dict))
-
-a=[1]
+print(var.wordBreak("iaam",dict))

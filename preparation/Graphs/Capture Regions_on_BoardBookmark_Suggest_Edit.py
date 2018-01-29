@@ -19,7 +19,7 @@ class Solution:
                 self.helper(graph,i+xx,j+yy,answer)
 
 graph=[[1,1,1,1],
-       [1,0,0,0],
+       [1,0,0,1],
        [1,1,0,1],
        [1,0,1,1]]
 

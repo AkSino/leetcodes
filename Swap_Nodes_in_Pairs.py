@@ -24,6 +24,6 @@ a.next.next.next=Node(4)
 a.next.next.next.next=Node(5)
 var=Solution()
 m=var.swapPairs(a)
-print(m.data,m.next.data,m.next.next.data)
+print(m.data,m.next.data,m.next.next.data,m.next.next.next.data,m.next.next.next.next.data)
 
 import nltk

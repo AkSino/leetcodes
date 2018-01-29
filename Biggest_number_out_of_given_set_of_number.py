@@ -13,7 +13,7 @@ def multiply_string(string):
 final_ans=list(map(multiply_string,string))
 
 heap=[]
-for each in final_ans:
+
 
 
 

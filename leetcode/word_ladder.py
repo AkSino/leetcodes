@@ -2,12 +2,6 @@
 
 class Solution:
     def ladderLength(self, beginWord, endWord, wordList,arraylist):
-        """
-        :type beginWord: str
-        :type endWord: str
-        :type wordList: List[str]
-        :rtype: int
-        """
 
         for i in range(len(wordList)):
             if self.match_word(beginWord,endWord):

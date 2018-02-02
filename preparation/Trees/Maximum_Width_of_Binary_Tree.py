@@ -6,14 +6,6 @@ class Node():
 
 class Solution:
     def widthOfBinaryTree(self, root):
-        queue=[(root,0,0)]
-        while queue:
-            a=queue.pop()
-            node=a[0]
-            index=a[1]
-            depth=a[2]
-            queue.append(node.left,index,depth+1)
-            queue.append(node.left, index + 1, depth + 1)
 
 
 

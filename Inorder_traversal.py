@@ -5,23 +5,11 @@ class Node():
         self.right=None
 arr=[]
 def inorder(root):
-    # if root.left==None :
-    #     if root.key not in arr:
-    #         arr.append(root.key)
-    # else:
-    #     inorder(root.left)
-    # if root.key not in arr:
-    #     arr.append(root.key)
-    # if root.right==None:
-    #     if root.key not in arr:
-    #         arr.append(root.key)
-    # else:
-    #     inorder(root.right)
     if root==None:
         return
     inorder(root.left)
-    inorder(root.right)
     arr.append(root.key)
+    inorder(root.right)
 
     return arr
 

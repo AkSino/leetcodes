@@ -6,9 +6,12 @@ def permutation(input_string,start,end):
 
     else:
         for i in range(start,end+1):
-            input_string[start],input_string[i]=input_string[i],input_string[start]
-            permutation(input_string,start+1,end)
-            input_string[start], input_string[i] = input_string[i], input_string[start] #It is used so that there miht be no change
+            if i != start and input_string[i] == input_string[i - 1]:
+                continue
+            else:
+                input_string[start],input_string[i]=input_string[i],input_string[start]
+                permutation(input_string,start+1,end)
+                input_string[start], input_string[i] = input_string[i], input_string[start] #It is used so that there miht be no change
                                                                                          #in the input_string and for every
 
     return var
@@ -19,7 +22,7 @@ def permutation(input_string,start,end):
 # And for all these three steps we have to firstly swap the number and then again come back to the original pattern so that we
 # can swap the other pair of number easily
 
-str="AXB"
+str="ABB"
 lists=list(str)
 start=0
 end=len(lists)-1

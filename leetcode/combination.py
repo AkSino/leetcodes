@@ -14,4 +14,5 @@ def dfs( nums, target, index, path, res):
     for i in range(index, len(nums)):
         dfs(nums, target - nums[i], i, path + [nums[i]], res)
 
-print(combinationSum([1,2,3],3))
+for each in (combinationSum([1,2,4,8,16,32],33)):
+    print(each)

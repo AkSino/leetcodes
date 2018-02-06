@@ -32,7 +32,5 @@ def find_paths(N):
     paths_dict[N] = all_paths
     return all_paths
 
-print (find_paths(25))
-
-
-
+for each in  (find_paths(10)):
+    print(each)

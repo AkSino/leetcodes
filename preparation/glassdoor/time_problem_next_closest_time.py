@@ -34,3 +34,21 @@ class Solution(object):
         h1, h2 = hh // 10, hh % 10
         m1, m2 = mm // 10, mm % 10
         return h1 in digits and h2 in digits and m1 in digits and m2 in digits
+
+
+
+class Solution:
+    def nextClosestTime(self, time):
+        s = set(time)
+        hour = int(time[0:2])
+        minute = int(time[3:5])
+        while True:
+            minute += 1
+            if minute == 60:
+                minute = 0
+                hour = 0 if hour == 23 else hour + 1
+
+            time = "%02d:%02d" % (hour, minute)
+            if set(time) <= s:
+                return time
+        return time

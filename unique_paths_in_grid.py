@@ -15,8 +15,8 @@ def findUniquePath(grid):
     visited=[[False for i in range(len(grid[0]))] for j in range(len(grid))]
     return helper(grid,visited,0,0)
 a=[
-  [0,0,0],
-  [0,0,0],
+  [0,1,0],
+  [1,0,0],
   [0,0,0]
 ]
 print(findUniquePath(a))

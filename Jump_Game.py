@@ -18,4 +18,4 @@ class Solution():
                     return False
 
 var=Solution()
-print(var.canJump([2,0,0]))
+print(var.canJump([2,0,0,0]))

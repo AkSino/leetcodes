@@ -17,4 +17,4 @@ class Solution():
             return self.uniquePath(m-1,n,array)+self.uniquePath(m,n-1,array)
 
 var=Solution()
-print(var.uniquePaths(3,5))
+print(var.uniquePaths(3,3))

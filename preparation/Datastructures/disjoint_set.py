@@ -32,7 +32,7 @@ class Graph():
                 par2=self.findParent(parentList,j)
                 if par1==par2:
                     return True
-                parentList[j] = i
+                parentList[par1] = par2
 
                 #self.doUnion(parentList,i,j)
 

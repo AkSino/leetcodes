@@ -14,11 +14,11 @@ class Solution(object):
                 sum = sum % k
             pre = m.get(sum)
             if pre is not None:
-                if i - pre > 1: return True
+                if i - pre > 1:return True
             else:
                 m[sum] = i
         return False
 
 
 S = Solution()
-print(S.checkSubarraySum([1,2,7], 7))
+print(S.checkSubarraySum([1,2,7], 3))

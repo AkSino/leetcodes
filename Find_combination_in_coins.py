@@ -1,5 +1,5 @@
-amount=5
-coins=[2,3]
+amount=11
+coins=[2,4]
 number_of_coins=len(coins)
 arr=[[] for x in range(amount+1)]
 
@@ -12,7 +12,13 @@ for coin_selected in coins:
             for ph in arr[diff]:
                 arr[current_array_number].append(ph+[coin_selected])
 
-print(arr[amount])
+min_len=10000000
+for each in arr[amount]:
+    if len(each)<min_len:
+        answer=each
+        min_len=len(each)
+for
+print(answer)
 
 #Basically we will start from a single coin, and then find in how mny ways that particular coin can make number from (o to Number_we_want)
 #Then we use another coin, and find how many ways are added if we use that coin

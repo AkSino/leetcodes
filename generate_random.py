@@ -1,14 +1,17 @@
-# import random
-# a=[i for i in range(1,101)]
-# count=100
-# while a:
-#     p=input()
-#     index=random.randint(0,count-1)
-#     print(a[index])
-#     a.pop(index)
-#     count-=1
-import tensorflow
+import random
+from collections import  defaultdict
+a=[1,2,3,4,5]
+weight=[10,10000,19,10,15]
+aux=[weight[0]]
+for i in range(1,len(weight)):
+    aux=aux+[weight[i]+aux[i-1]]
 
-var=tensorflow.variable("VARDAB")
-sess=tensorflow.session()
-sess.start(var)
+dict=defaultdict(int)
+for _ in range(10054):
+    rand = random.randint(1, aux[-1])
+    for i in range(len(aux)):
+        if aux[i]>rand:
+            dict[a[i]]+=1
+            break
+
+print(dict)

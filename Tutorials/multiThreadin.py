@@ -3,18 +3,24 @@ import threading
 import time
 def vrdan():
     while True:
-        time.sleep(0.4)
-        print("ekcne")
+        time.sleep(2)
+        start = time.time()
+        print("vardanm1")
+        print(time.time()-start)
+
 def attu():
     while True:
-        time.sleep(0.2)
-        print("papapapapa")
+        time.sleep(2)
+        start=time.time()
+        print("vardanm2")
+        print(time.time()-start)
 t=threading.Thread(target=vrdan)
 t2=threading.Thread(target=attu)
 t.start()
 t2.start()
-t.join()
 t2.join()
+t.join()
+
 
 #We can aquire and release the locks so that only particular thread can be in opearation.
 

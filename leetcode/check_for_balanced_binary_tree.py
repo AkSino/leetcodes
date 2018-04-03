@@ -16,9 +16,6 @@ def checkBalance(root):
         return 1 + max(left,right)
 tree=Node(5)
 tree.left=Node(3)
-tree.right=Node(7)
-tree.left.left=Node(3)
-tree.left.right=Node(3)
-tree.right.left=Node(3)
-tree.right.right=Node(37)
+tree.left.left=Node(7)
+
 print(checkBalance(tree))

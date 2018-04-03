@@ -15,3 +15,6 @@ class Solution():
 
 var=Solution()
 print(var.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
+
+a="VARDAN"
+print(sorted(a))

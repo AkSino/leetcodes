@@ -1,7 +1,7 @@
 import random
 from collections import  defaultdict
-a=[1,2,3,4,5]
-weight=[10,10000,19,10,15]
+a=[1,2]
+weight=[1,1]
 aux=[weight[0]]
 for i in range(1,len(weight)):
     aux=aux+[weight[i]+aux[i-1]]

@@ -21,4 +21,4 @@ class Solution(object):
 
 
 S = Solution()
-print(S.checkSubarraySum([1,2,7], 3))
+print(S.checkSubarraySum([1,11,15], 11))

@@ -19,7 +19,7 @@ elem_pass.send_keys(password)
 elem_submit.click()
 count=0
 #provide any of the link of employee of linkedIn.
-driver.get("https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%221231%22%2C%222522622%22%5D")
+driver.get("https://www.linkedin.com/search/results/people/?facetCurrentCompany=%5B%225107%22%2C%2230455%22%5D")
 while True:
     count=0
     time.sleep(3)

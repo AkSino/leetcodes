@@ -4011,3 +4011,124 @@ Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrp
 
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1524932932168	geckodriver	INFO	geckodriver 0.19.1
+1524932932176	geckodriver	INFO	Listening on 127.0.0.1:58864
+1524932935395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.7GUKVzlzEhx1"
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1524932938330	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1524932940602	Marionette	INFO	Listening on port 58875
+1524932940642	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: https://static.licdn.com/sc/h/br/2b7ypmzp2h04agidir47thieb, line 4552: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/br/2b7ypmzp2h04agidir47thieb, line 4552: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/br/2b7ypmzp2h04agidir47thieb, line 4552: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/br/2b7ypmzp2h04agidir47thieb, line 4552: unreachable code after return statement
+[C[hPialrdent  11875848, C8h0r,o mGee_cko_IOCThrheadi]l dWARTNINhGr: epaipde]  eWrrAoRNIr:NG: 109: file  z:/bupiild/buipld/src/ipc/ec herormriourm:/ s1r0c9/:c hromfe/coimmon/ipcle _zc:hann/ebuilld_/wibuinl.cd/csr,c l/iipc/ne 34c6h
+romium/src[Child 1812/8[P,ca hrChrrent oo1mm78ee8_C0/h,ci olGmdThreademon/c]ik poWA_c_channel_win.cRIcNO,IT NhlGri:en piad] WARNING: pipe error: 109: fipe errleoe z:/build/build/src/ipc/chromium/src/chromer: 23 /23c:4o 6mf
+mion/ipcl_ec hannezl_:/build/buiwld/src/ipc/chromiumi/ns.ccr,c/chrome/common/ipc_channel_win.cc li,n liene  51334
+6[Ch
+ild[ C1h812i8l,d  Ch1r7o4me_ChildThr6ea0d,]  Chrome_ChWAiRlNINGd: Thread] WARNING: pipe error: 109: file z:/buildp/ibpuei ledr/rsor: r2c3/2ip:c file/c hz:/romibumu/isrc/chrolmed//cbomumon/ipc_iclhanndel/_src/wiinp.cc/cc,h rloimnieu m3/46sr
+c/chrome/common/ipc_channel_win.cc, line 513
+[Child 18128, Chrome_ChildThread] WARNING: pipe error: 232: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+[Child 18128, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[C
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+hild 18128, C
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+hrome_Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+il
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+dThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1524933655728	geckodriver	INFO	geckodriver 0.19.1
+1524933655735	geckodriver	INFO	Listening on 127.0.0.1:60423
+1524933658876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.AK54LC3GcTku"
+1524933693997	geckodriver	INFO	geckodriver 0.19.1
+1524933694003	geckodriver	INFO	Listening on 127.0.0.1:60485
+1524933697162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.mlSpHNO9AHgV"
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1524933697864	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1524933699404	Marionette	INFO	Listening on port 60496
+1524933700288	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.licdn.com/sc/h/br/2b7ypmzp2h04agidir47thieb, line 4552: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/br/2b7ypmzp2h04agidir47thieb, line 4552: unreachable code after return statement
+[Child 7028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 702[Parent 5988, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9040, [GPU 3
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525477399999	geckodriver	INFO	geckodriver 0.19.1
+1525477400014	geckodriver	INFO	Listening on 127.0.0.1:56372
+1525477403158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.yMCTH5Pl3cDg"
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1525477404410	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1525477406424	Marionette	INFO	Listening on port 56381
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1525477406824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.licdn.com/sc/h/br/5ovf7kbwcax9i0jwos7c5dpmu, line 4668: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/br/5ovf7kbwcax9i0jwos7c5dpmu, line 4668: unreachable code after return statement
+[Child 25784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[[Parent 32496, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 39412, Chrome_[CParent 32496h, GeiclkdoT_hIrOeTad] WARNhIrNeGa:d ]p WiApReNING :er ror
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+p:i p1e0 9e:r rfori: 1l09: file ze: /zb:uild/b/ubildu/sricl/dipc/chr/obmuiium/src/chromle/common/ipc_cdh/asnrnce/lip_cw/icnh.rcocm,i liunme/ s34r6c
+/[cChhriolmde /2c3o8m6m4o,n /Cihropmce__cChhainlndeTlh_rewaidn]. cWcA,R NlIiNnG:e  p346i
+p
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+e[ Cehrror: 109i: fileld  z3:9/4b1u2,i ldC/bhuriolmde/_srCch/iilpdcT/hcrheraomd]i WARuNmI/NsGr:c /pcihpreo meerr/ocorm: m1o0n9/: ifpi
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+cle_cha nnelz_win.cc, li:ne 346
+[/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[G
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1525477573095	geckodriver	INFO	geckodriver 0.19.1
+1525477573103	geckodriver	INFO	Listening on 127.0.0.1:56679
+1525477576189	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\varda\\AppData\\Local\\Temp\\rust_mozprofile.doICWSrpM5SA"
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1525477577016	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Unable to read VR Path Registry from C:\Users\varda\AppData\Local\openvr\openvrpaths.vrpath
+1525477578732	Marionette	INFO	Listening on port 56688
+1525477579400	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.licdn.com/sc/h/br/5ovf7kbwcax9i0jwos7c5dpmu, line 4668: unreachable code after return statement
+JavaScript warning: https://static.licdn.com/sc/h/br/5ovf7kbwcax9i0jwos7c5dpmu, line 4668: unreachable code after return statement
+1525478020884	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1525478020986	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1525478021006	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 9840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15732, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 9840, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26596, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26596, C[Child 11244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11244
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

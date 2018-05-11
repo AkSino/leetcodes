@@ -1,6 +1,14 @@
-a=[1,2]
+class Animal():
+    def walk(self):
+        print("Running")
 
-b=[1,2]
 
-if (a is a):
-    print("EDNJ")
+class Bird(Animal):
+    def walk(self):
+        super().walk()
+        print("Flying")
+
+
+
+var=Bird()
+var.walk()

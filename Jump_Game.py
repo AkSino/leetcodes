@@ -1,3 +1,4 @@
+#https://leetcode.com/problems/jump-game/description/
 class Solution():
     def canJump(self,nums):
 
@@ -14,7 +15,7 @@ class Solution():
                 return True
             if steps==0:
                 steps=maxim-i
-                if steps<=0:
+                if steps==0:
                     return False
 
 var=Solution()

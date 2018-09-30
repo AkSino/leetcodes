@@ -19,12 +19,8 @@ elem_pass.send_keys(password)
 elem_submit.click()
 count=0
 #provide any of the link of employee of linkedIn.
-company_urls=["https://www.linkedin.com/search/results/people/v2/?facetCurrentCompany=%5B%221449%22%2C%221454%22%2C%2217209%22%2C%22162717%22%2C%221162260%22%5D&origin=FACETED_SEARCH",
-              "https://www.linkedin.com/search/results/people/v2/?facetCurrentCompany=%5B%223608%22%5D",
-              "https://www.linkedin.com/search/results/people/v2/?facetCurrentCompany=%5B%2296622%22%5D",
-              "https://www.linkedin.com/search/results/people/v2/?facetCurrentCompany=%5B%222135371%22%5D"
-]
-company_names_list=["EA", "Nvidia", "Twitter", "Stripe"]
+company_urls=["https://www.linkedin.com/search/results/people/v2/?keywords=Bloomberg&origin=FACETED_SEARCH"]
+company_names_list=["Bloomberg"]
 total_number_of_requests=40
 for company in range(len(company_urls)):
     i=0

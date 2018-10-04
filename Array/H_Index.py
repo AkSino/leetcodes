@@ -18,4 +18,4 @@ class Solution:
 
 
 var = Solution()
-print(var.hIndex([11,15]))
+print(var.hIndex([3,0,6,1,5]))

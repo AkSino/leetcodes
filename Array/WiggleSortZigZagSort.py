@@ -4,4 +4,5 @@ class Solution(object):
             return nums
 
         for i in range(1, len(nums)):
-            if(i%2==0)
+            if(i%2==0):
+                pass

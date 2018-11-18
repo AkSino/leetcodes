@@ -22,7 +22,7 @@ class Solution():
                 i+=1
         return ans
 var=Solution()
-print(var.maximumGap([2, 3, 10, 2, 4, 8, 1]))
+print(var.maximumGap([3,5,4,2]))
 
 
 

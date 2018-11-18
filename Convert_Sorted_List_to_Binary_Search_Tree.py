@@ -27,4 +27,5 @@ class Solution:
         root.left = self.arrayToTree(array, 0, mid - 1)
         root.right = self.arrayToTree(array, mid+1, len(array) - 1)
 
-def arrayToLinkedList()
+def arrayToLinkedList():
+    pass
